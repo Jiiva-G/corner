@@ -22,7 +22,7 @@ body{
     cursor: pointer;
     margin: 25px 0;
     box-shadow: 0 0 10px #2c3e50;
-  font-size: 40px;
+  font-size: 60px;
 }
 .navbar{
     display: flex;
@@ -39,7 +39,7 @@ body{
     color: #2d3436;
     padding: 4px;
     transition: all 0.5s;
-  font-size:28px
+  font-size:36px
 }
 .navbar ul li a:hover{
     box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset;
@@ -54,10 +54,11 @@ body{
 .content{
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 250px;
     user-select:none;
 }
 .content .cont h3{
+  font-size:30px
     color: white;
     text-shadow: 0 0 5px #1abc9c,
     0 0 20px #1abc9c,
@@ -70,6 +71,7 @@ body{
 }
 .content .cont h1{
     color: white;
+  font-size:50px
     text-shadow: 0 0 5px #3498db,
     0 0 20px #3498db,
     0 0 30px #3498db,
