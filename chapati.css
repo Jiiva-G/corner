@@ -22,6 +22,7 @@ body{
     cursor: pointer;
     margin: 25px 0;
     box-shadow: 0 0 10px #2c3e50;
+  font-size: 40px;
 }
 .navbar{
     display: flex;
@@ -38,6 +39,7 @@ body{
     color: #2d3436;
     padding: 4px;
     transition: all 0.5s;
+  font-size:28px
 }
 .navbar ul li a:hover{
     box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset;
