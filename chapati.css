@@ -81,16 +81,16 @@ body{
 
 }
 .type{
-    font-size: 25px;
+    font-size: 35px;
     margin-top: 70px;
-    margin-left: 30px;
+    margin-left: 60px;
     font-weight: 500;
     color: white;
     width: 0ch;
     white-space: nowrap;
     overflow: hidden;
     border-right: 1px solid teal;
-    animation: typing  8s  2;
+    animation: typing  8s  infinite;
     text-shadow: 0 0 5px #c0392b,
     0 0 30px #c0392b,
     0 0 50px #c0392b,
