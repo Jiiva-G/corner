@@ -9,7 +9,7 @@ html{
     height: 100%;
 }
 body{
-    background: url(file:///C:/Users/ELCOT/Desktop/chapati/image/dark-background.jpg) center center fixed;
+    background: url(image/dark-background.jpg) center center fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
