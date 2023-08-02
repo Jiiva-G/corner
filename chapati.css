@@ -11,7 +11,7 @@ body{
     background-blend-mode:darken;
 }
 .container{
-    width: 100vw;
+   
     display: flex;
     justify-content:center;
     
