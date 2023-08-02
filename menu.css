@@ -7,15 +7,15 @@
 html{
     width: 100%;
     height: 100%;
-    
-}
-body{
-    background: url(image/dark-background.jpg) center center fixed;
+    background: url(file:///C:/Users/ELCOT/Desktop/chapati/image/dark-background.jpg) center center fixed;
     background-size: cover;
     background-attachment: fixed;
+}
+body{
     display: flex;
     flex-direction: column;
-    user-select: none;   
+    user-select: none;
+    
 }
 h1{
     text-align: center;
@@ -36,6 +36,7 @@ h2{
     font-weight: 500;   
     padding-bottom: 3px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 h2:after{
     content: '';
@@ -84,7 +85,7 @@ h2:hover::after{
 }
 .varitie ul li{
     padding: 10px;
-    font-size: 21px;
+    font-size: 20px;
     color: white;
     column-count: 2;
 }
@@ -95,6 +96,52 @@ h2:hover::after{
     padding: 5px;
              
 }
+.varitie .image{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.varitie .image img{
+    margin: 20px;
+}
+.varitie .Gravy{
+    display: flex;
+    justify-content: end;
+    margin-right: 150px ;
+    font-size:40px;
+    color: #d35400;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;   
+}
+.varitie .G_right{
+    margin-left: 180px;
+    border-left: 2px solid yellow;
+    list-style: none;
+    margin-top: 20px;
+}
+footer{
+    margin-top: 80px;
+}
+footer .end{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.end p{
+    color: #d35400;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 30px ;
+}
+.end a i{
+    color: #1abc9c;
+}
+
+
 
 
 
@@ -117,6 +164,9 @@ h2:hover::after{
     .varitie ul li div{
         padding: 5px;
         margin-left: 20px;
+    }
+    .varitie .Gravy{
+        margin-right: 50px;
     }
 }
 
