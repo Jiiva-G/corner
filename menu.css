@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(file:///C:/Users/ELCOT/Desktop/chapati/image/dark-background.jpg) center fixed;
+    background-size: cover;
+    height: 100wh;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container h1{
+    text-align: center;
+    color: #d35400;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    margin: 25px 0;
+}
+.container .food{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.food h2{
+    font-weight: 500;
+}
+.container .varitie h1{
+    display: inline-block;
+    margin-left: 80px;
+    font-size: 50px;
+}
+.varitie ul{
+    margin-left: 100px;
+    border-left: 2px solid yellow;
+    list-style: none;
+    position: relative;
+
+}
+.varitie ul li{
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    column-count: 2;
+}
+.varitie ul li div{
+    width: 65px;
+    background-color:#e67e22;
+    border-radius: 5px;
+    padding-left: 2px;
+    margin-left: -40px;         
+}
+.varitie .pic{
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    background: url(file:///C:/Users/ELCOT/Desktop/chapati/image/ch_pic-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 300px;
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+    margin-top: -100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*file:///C:/Users/ELCOT/Desktop/chapati/image/ch_pic-1.jpg*/
