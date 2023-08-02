@@ -10,7 +10,7 @@ html{
     
 }
 body{
-    background-image: url(image/dark-background.jpg) center center fixed;
+    background: url(image/dark-background.jpg) center center fixed;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
