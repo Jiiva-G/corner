@@ -1,29 +1,43 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Poppins:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background: url(image/background.jpg) center center fixed;
+    background: url(file:///C:/Users/ELCOT/Desktop/chapati/image/background.jpg) center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode:darken;
 }
-.container{
-   
-    display: flex;
-    justify-content:center;
-    
-}
-.container h1{
-    color:#130f40;
+h1{
+    text-align: center;
+    background-image: linear-gradient(to right top, #4baf09, #00b475, #00b1c2, #00a6f0, #2d93f2);
     margin-left: 20px;
     cursor: pointer;
-    margin: 40px 0;
-    box-shadow: 0 0 10px #2c3e50;
-  font-size: 60px;
+    margin: 25px 0;
+    font-family: 'Lobster', cursive;
+    font-weight: 500;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 44px;
+    /*background-size: 500% 500%;
+    animation: kmp 2s ease infinite  ;*/
+    
 }
+/*@keyframes kmp{
+    0%{
+        background-position: 0%;
+    }
+    50%{
+        background-position: 100%;
+    }
+    100%{
+        background-position: 0%;
+    }
+}
+*/
 .navbar{
     display: flex;
     justify-content: end;
@@ -39,7 +53,6 @@ body{
     color: #2d3436;
     padding: 4px;
     transition: all 0.5s;
-  font-size:36px
 }
 .navbar ul li a:hover{
     box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset;
@@ -51,14 +64,11 @@ body{
     border-radius: 12px;
     color: white;
 }
-.content{
-    display: flex;
-    justify-content: center;
-    margin-top: 250px;
+.cont{
+    margin-top: 150px;
     user-select:none;
 }
-.content .cont h3{
-    font-size: 31px;
+.cont h3{
     color: white;
     text-shadow: 0 0 5px #1abc9c,
     0 0 20px #1abc9c,
@@ -69,9 +79,10 @@ body{
     margin-bottom: 20px;
     text-align: center;
 }
-.content .cont h1{
+.food{
+    text-align: center;
+    font-size: 32px;
     color: white;
-    font-size: 50px;
     text-shadow: 0 0 5px #3498db,
     0 0 20px #3498db,
     0 0 30px #3498db,
@@ -81,9 +92,9 @@ body{
 
 }
 .type{
-    font-size: 35px;
+    font-size: 25px;
     margin-top: 70px;
-    margin-left: 60px;
+    margin-left: 30px;
     font-weight: 500;
     color: white;
     width: 0ch;
@@ -104,7 +115,7 @@ body{
         width:och;
     }
     50%{
-        width:36ch;
+        width:32ch;
     }
 }
 
