@@ -21,7 +21,7 @@ h1{
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    font-size: 44px;
+    font-size: 50px;
     /*background-size: 500% 500%;
     animation: kmp 2s ease infinite  ;*/
     
@@ -53,6 +53,7 @@ h1{
     color: #2d3436;
     padding: 4px;
     transition: all 0.5s;
+    font-size:28px;
 }
 .navbar ul li a:hover{
     box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset;
@@ -78,10 +79,11 @@ h1{
     0 0 120px #1abc9c;
     margin-bottom: 20px;
     text-align: center;
+    font-size:26px;
 }
 .food{
     text-align: center;
-    font-size: 32px;
+    font-size: 38px;
     color: white;
     text-shadow: 0 0 5px #3498db,
     0 0 20px #3498db,
@@ -92,7 +94,7 @@ h1{
 
 }
 .type{
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 70px;
     margin-left: 30px;
     font-weight: 500;
@@ -118,7 +120,6 @@ h1{
         width:36ch;
     }
 }
-
 
 
 
