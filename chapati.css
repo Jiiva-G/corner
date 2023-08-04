@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url(file:///C:/Users/ELCOT/Desktop/chapati/image/background.jpg) center center fixed;
+    background: url(image/background.jpg) center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode:darken;
